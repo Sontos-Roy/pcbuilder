@@ -151,6 +151,7 @@ footer a{
     flex-direction: column;
     border-right: 1px solid gray;
     border-radius: 0;
+    height: 100%;
 }
 .side_nav .nav-item:last-child .btn{
     border-right: none;
@@ -208,6 +209,7 @@ footer a{
     margin-bottom: 5px !important;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-image {
     float: left;
@@ -256,4 +258,10 @@ footer a{
     background: #F2F3F4;
     height: 15px;
     margin-top: 15px;
+}
+@media (max-width: 579px){
+    .component-product-empty {
+        width: 100px;
+        max-width: 100%;
+    }
 }
