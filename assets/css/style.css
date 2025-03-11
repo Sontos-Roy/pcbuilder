@@ -1,0 +1,259 @@
+@import url(fonts.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: saira, sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: #ffffff;
+}
+
+
+:root{
+    /* font sizes  */
+    --font-18: 18px;
+    --font-17: 17px;
+    --font-15: 15px;
+    --font-14: 14px;
+    --font-13: 13px;
+    --font-12: 12px;
+
+    /* colors  */
+    --black: rgb(0, 0, 0);
+    --white: rgb(247, 247, 247);
+    --blue: #0c497d;
+}
+.text-justify{
+    text-align: justify;
+}
+.sans{
+    font-family: openSans;
+}
+.white{
+    color: white;
+}
+.muted{
+    background: rgb(179, 179, 179);
+}
+.bg-white{
+    background-color: #fff !important;
+}
+.bg-white1{
+    background-color: #1d1f24 !important;
+}
+footer a{
+    font-size: var(--font-14);
+}
+.footer_1top{
+    margin-top: 10px;
+}
+.footer_p{
+    margin-top: 8px;
+    color: #777777;
+}
+.text-dark1{
+    color: #777777;
+}
+.a:hover{
+    color: #fff;
+}
+.h_color{
+    color: #fff;
+}
+.font-18{
+    font-size: var(--font-18);
+}
+.font-17{
+    font-size: var(--font-17);
+}
+.font-15{
+    font-size: var(--font-15);
+}
+.font-14{
+    font-size: var(--font-14);
+}
+.font-13{
+    font-size: var(--font-13);
+}
+.font-12{
+    font-size: var(--font-12);
+}
+.bold-9{
+    font-weight: 900;
+}
+.bold-7{
+    font-weight: 700;
+}
+.bold-5{
+    font-weight: 500;
+}
+.bold-3{
+    font-weight: 300;
+}
+.ls-2{
+    letter-spacing: 2px;
+}
+.line{
+    line-height: 1.7;
+}
+.line_1{
+    line-height: 1.7;
+    color: #fff;
+    font-weight: 600;
+}
+.line-2 {
+    line-height: 2.2;
+}
+.bg-black{
+    background: var(--black);
+}
+.align-item-center{
+    align-items: center !important;
+}
+.align-item-start{
+    align-items: flex-start;
+}
+.align-item-between{
+    align-items: stretch;
+}
+.text-cap{
+    text-transform: uppercase;
+}
+.fancybox__container{
+    z-index: 3050;
+}
+.bg-color{
+    background-color: #f29d35;
+    transition: 0.3s;
+}
+.bg-hover-color:hover{
+    background-color: #bfd23a;
+}
+.text-color{
+    color: #F26A5A;
+}
+.panzoom{
+    width: 100%;
+    height: auto;
+  }
+
+.hover:hover{
+    color: red;
+}
+.footer-logo img{
+    width: 160px;
+}
+.side_nav .nav-item .btn{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid gray;
+    border-radius: 0;
+}
+.side_nav .nav-item:last-child .btn{
+    border-right: none;
+}
+.side_nav .nav-item .btn:hover{
+    color: #e98a16;
+}
+.side_nav .nav-item .btn i{
+    font-size: 18px;
+}
+.side_nav .nav-item .btn span{
+    font-size: 10px;
+}
+.pc-builder-container .sub-heading {
+    color: #0f3a8d;
+    margin: 15px 0 0;
+    font-weight: 600;
+    text-align: left !important;
+}
+.pc-builder-container .hide-empty-component {
+    margin: 8px 0px 15px 0px;
+}
+.pc-builder-container #total-container {
+    margin-top: 15px;
+}
+.pc-builder-container #total-container .total-amount {
+    color: #FFF !important;
+    border-radius: 3px !important;
+    padding: 5px 50px !important;
+    float: right;
+    background-color: #F35438 !important;
+    font-weight: 600 !important;
+    margin-right: 15px;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+    border: 2px solid #df5c39;
+}
+.pc-builder-container .pc-builder-category-container {
+    margin: 0px 0px 10px 0px;
+}
+.pc-builder-container .pc-builder-category-container h4 {
+    margin: 0 0 10px;
+    color: #fff;
+    font-size: 15px;
+    background: #808996;
+    line-height: 20px;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 10px !important;
+}
+.pc-builder-container .pc-builder-category-container .pc-builder-component-container {
+    border: 1px solid #eee !important;
+    background-color: #ffffff !important;
+    padding: 10px 7px !important;
+    margin-bottom: 5px !important;
+    display: flex;
+    justify-content: space-between;
+}
+.pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-image {
+    float: left;
+}
+.pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-image .thumbnail {
+    margin-bottom: 0px;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2sease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2sease-in-out;
+}
+.pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-name-product {
+    padding: 0px 16px;
+    float: left;
+}
+.pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-name {
+    padding: 0px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    float: none;
+    margin-bottom: 5px;
+}
+.pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-product {
+    padding: 0px 0px;
+    font-size: 12px;
+    float: none;
+}
+.pc-builder-container .pc-builder-category-container .pc-builder-component-container .text-danger {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+.component-product-empty {
+    width: 250px;
+    max-width: 100%;
+}
+
+.component-product-empty {
+    background: #F2F3F4;
+    height: 15px;
+    margin-top: 15px;
+}
